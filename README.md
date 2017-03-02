@@ -29,7 +29,7 @@ APP如果想接入预发布环境，只需要设置HTTP代理，就可以很方�
 
             access_by_lua '
                  domain_map = {
-                     ["apis\\\\.qianbao\\\\.com"] = "pre-apis.qianbao.com"
+                     ["apis\\\\.domain\\\\.com"] = "pre-apis.domain.com"
                  };
 
                  ngx.var.domain = ngx.var.host
