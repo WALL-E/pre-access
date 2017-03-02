@@ -18,7 +18,6 @@ APP如果想接入预发布环境，只需要设置HTTP代理，就可以很方�
 * 修改DNS服务器地址
 * 修改需要修改的预发布环境和生产环境的域名
 
-配置
 ```nginx.conf
         location / {
             set $domain "";
